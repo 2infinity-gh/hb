@@ -4,7 +4,7 @@ services:
     container_name: hummingbot
 #    image: hummingbot/hummingbot:latest
     build: 
-      context: https://github.com/2infinity-gh/hb:master
+      context: https://github.com/2infinity-gh/hb.git#master
 #      context: .
 #      dockerfile: Dockerfile
     volumes:
