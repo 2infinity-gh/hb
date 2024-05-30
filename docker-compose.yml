@@ -2,8 +2,8 @@ version: "3.9"
 services:
   hummingbot:
     container_name: hummingbot
-    image: hummingbot/hummingbot:latest
-#    build: Uncomment this and comment image if you want to build it locally
+#    image: hummingbot/hummingbot:latest
+    build: 2infinity-gh/hb:master
 #      context: .
 #      dockerfile: Dockerfile
     volumes:
