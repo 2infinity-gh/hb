@@ -1,9 +1,11 @@
 from hummingbot.core.api_throttler.data_types import RateLimit
 
-BASE_URL = "https://api.coingecko.com/api/v3"
-PING_REST_ENDPOINT = "/ping"
-PRICES_REST_ENDPOINT = "/coins/markets"
-SUPPORTED_VS_TOKENS_REST_ENDPOINT = "/simple/supported_vs_currencies"
+REST_CALL_RATE_LIMIT_ID = "CG-nhW37Rj9xujCeUXBCFKKjsS4"
+BASE_URL = "https://pro-api.coingecko.com/api/v3"
+PING_REST_ENDPOINT = "/ping?x_cg_pro_api_key=CG-nhW37Rj9xujCeUXBCFKKjsS4"
+PRICES_REST_ENDPOINT = "/coins/markets?x_cg_pro_api_key=CG-nhW37Rj9xujCeUXBCFKKjsS4"
+SUPPORTED_VS_TOKENS_REST_ENDPOINT = "/simple/supported_vs_currencies?x_cg_pro_api_key=CG-nhW37Rj9xujCeUXBCFKKjsS4"
+
 
 COOLOFF_AFTER_BAN = 60.0 * 1.05
 
